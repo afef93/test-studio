@@ -1,0 +1,33 @@
+@import "variables";
+
+#footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 30vw;
+  color: $primary-color;
+  border: 2px solid $primary-color !important;
+}
+
+.footer {
+  &__title {
+
+    font-family: SevenOneEight-Book, sans-serif;
+    font-size: 1.8em;
+
+    &--bold {
+      font-family: SevenOneEight-ExtraBold, sans-serif;
+    }
+  }
+
+  &__subtitle {
+
+    font-family: SevenOneEight-Book, sans-serif;
+    font-size: 1.8em;
+  }
+}
